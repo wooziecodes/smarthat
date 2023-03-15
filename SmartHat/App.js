@@ -25,6 +25,8 @@ const App = props => {
     });
   }, []);
 
+  console.log("hi");
+
   const toggleBt = e => {
     if (!btStatus) btManager.disable();
     else btManager.enable();
